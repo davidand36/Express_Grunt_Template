@@ -1,0 +1,25 @@
+{
+  "name": "NEWA_Template",
+  "version": "0.1.0",
+  "description": "Template for a Node/Express/Waterline/Angular Web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davidand36/NEWA_Template.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Waterline",
+    "Angular"
+  ],
+  "author": "David M. Anderson",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/davidand36/NEWA_Template/issues"
+  },
+  "homepage": "https://github.com/davidand36/NEWA_Template"
+}
