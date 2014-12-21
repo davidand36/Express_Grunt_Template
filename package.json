@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/davidand36/NEWA_Template/issues"
   },
-  "homepage": "https://github.com/davidand36/NEWA_Template"
+  "homepage": "https://github.com/davidand36/NEWA_Template",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
