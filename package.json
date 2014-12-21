@@ -2,7 +2,7 @@
   "name": "NEWA_Template",
   "version": "0.1.0",
   "description": "Template for a Node/Express/Waterline/Angular Web app",
-  "main": "server.js",
+  "main": "web.js",
   "scripts": {
     "test": "grunt test"
   },
