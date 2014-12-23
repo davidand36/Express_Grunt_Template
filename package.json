@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/davidand36/NEWA_Template",
   "dependencies": {
+    "express": "^4.10.6",
     "lodash": "^2.4.1",
-    "express": "^4.10.6"
+    "serve-favicon": "^2.2.0"
   }
 }

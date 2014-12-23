@@ -6,9 +6,11 @@
 */
 
 var express = require( 'express' );
+var favicon = require( 'serve-favicon' );
 
 var app = express();
 
+app.use( favicon( __dirname + '/public/favicon.ico' ) );
 app.use( express.static( __dirname + '/public' ) );
 
 var port = Number( process.env.PORT || 6203 );
