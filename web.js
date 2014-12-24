@@ -10,7 +10,7 @@ var favicon = require( 'serve-favicon' );
 
 var app = express();
 
-app.use( favicon( __dirname + '/public/favicon.ico' ) );
+app.use( favicon( __dirname + '/public/favicon.png' ) );
 app.use( express.static( __dirname + '/public' ) );
 
 var port = Number( process.env.PORT || 6203 );
