@@ -2,7 +2,7 @@
   "name": "NEWA_Template",
   "version": "0.1.0",
   "description": "Template for a Node/Express/Waterline/Angular Web app",
-  "main": "server.js",
+  "main": "web.js",
   "scripts": {
     "test": "grunt test"
   },
@@ -22,8 +22,13 @@
     "url": "https://github.com/davidand36/NEWA_Template/issues"
   },
   "homepage": "https://github.com/davidand36/NEWA_Template",
-  "devDependencies": {
+  "dependencies": {
+    "compression": "^1.2.2",
+    "express": "^4.10.6",
     "lodash": "^2.4.1",
+    "serve-favicon": "^2.2.0"
+  },
+  "devDependencies": {
     "grunt": "^0.4.5",
     "load-grunt-config": "^0.16.0"
   }
