@@ -9,6 +9,7 @@ var express = require( 'express' );
 var favicon = require( 'serve-favicon' );
 var compression = require( 'compression' );
 var security = require( './server/security' );
+var ports = require( './config/ports' );
 
 var app = express();
 
@@ -17,7 +18,7 @@ app.use( compression() );
 security.useHelmet( app );
 app.use( express.static( __dirname + '/public' ) );
 
-var port = Number( process.env.PORT || 6203 );
+var port = Number( ports.server );
 app.listen( port,
             function( )
             {
