@@ -3,7 +3,11 @@
   David M. Anderson
 
   Configuration for Helmet security middleware.
-  See https://www.npmjs.com/package/helmet .
+  NOTES:
+  1. See https://www.npmjs.com/package/helmet for details.
+  2. These settings, particularly for contentSecurityPolicy, are pretty
+     restrictive. They would prohibit use of a CDN, for instance. So many
+     apps will need to adjust them.
 */
 
 module.exports = {
