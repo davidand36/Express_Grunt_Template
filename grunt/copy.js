@@ -2,7 +2,8 @@
   copy.js
   David M. Anderson
 
-  Configuration for copy Grunt task
+  Configuration for copy Grunt task.
+  See https://www.npmjs.com/package/grunt-contrib-copy .
 */
 
 module.exports = {
