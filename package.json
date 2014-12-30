@@ -36,6 +36,7 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-symlink": "^0.3.0",
     "grunt-nodemon": "^0.3.0",
-    "load-grunt-config": "^0.16.0"
+    "load-grunt-config": "^0.16.0",
+    "time-grunt": "^1.0.0"
   }
 }
