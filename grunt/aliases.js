@@ -7,9 +7,11 @@
 
 module.exports = {
     lint: [
-        'jshint'
+        'jshint',
+        'scsslint'
     ],
     client: [
+        'scsslint:client',
         'clean:client',
         'copy:client',
         'symlink:favicon'
