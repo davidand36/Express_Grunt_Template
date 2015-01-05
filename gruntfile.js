@@ -18,6 +18,10 @@ module.exports = function( grunt ) {
 
     require( 'load-grunt-config' )( grunt,
                                     {
-                                        jitGrunt: {}
+                                        jitGrunt: {
+                                            staticMappings: {
+                                                scsslint: 'grunt-scss-lint'
+                                            }
+                                        }
                                     } );
 };
