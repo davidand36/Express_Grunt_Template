@@ -7,6 +7,7 @@
 
 module.exports = {
     lint: [
+        'jsonlint',
         'htmlhint',
         'jshint',
         'scsslint',
