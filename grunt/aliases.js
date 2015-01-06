@@ -14,7 +14,8 @@ module.exports = {
         'scsslint:client',
         'clean:client',
         'copy:client',
-        'symlink:favicon'
+        'symlink:favicon',
+        'compass:client'
     ],
     default: [
         'lint'
