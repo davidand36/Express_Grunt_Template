@@ -3,6 +3,7 @@
   David M. Anderson
 
   Configuration for node-inspector Grunt task
+  See https://www.npmjs.com/package/grunt-node-inspector
 */
 
 var ports = require( '../config/ports' );
