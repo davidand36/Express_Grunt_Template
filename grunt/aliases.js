@@ -7,11 +7,13 @@
 
 module.exports = {
     lint: [
+        'htmlhint',
         'jshint',
         'scsslint',
         'csslint'
     ],
     client: [
+        'htmlhint:client',
         'scsslint:client',
         'clean:client',
         'copy:client',
