@@ -6,9 +6,10 @@
 */
 
 module.exports = {
+    options: {
+        htmlhintrc: '.htmlhint.json'
+    },
     client: {
-        src: [ 'client/**/*.html' ],
-        options: {
-        }
+        src: [ 'client/**/*.html' ]
     }
 };
