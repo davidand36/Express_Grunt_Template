@@ -8,14 +8,16 @@
 module.exports = {
     lint: [
         'jshint',
-        'scsslint'
+        'scsslint',
+        'csslint'
     ],
     client: [
         'scsslint:client',
         'clean:client',
         'copy:client',
         'symlink:favicon',
-        'compass:client'
+        'compass:client',
+        'csslint:client'
     ],
     default: [
         'lint'
