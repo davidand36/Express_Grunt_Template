@@ -1,0 +1,12 @@
+//  text.scss
+//  David M. Anderson
+//
+//  Text styling
+
+@import 'colors';
+
+body
+{
+    background-color: $background-color;
+    color: $text-color;
+}
