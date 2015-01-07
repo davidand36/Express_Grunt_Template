@@ -41,6 +41,7 @@
     "grunt-contrib-nodemon": "^0.5.4",
     "grunt-contrib-sass-lint": "0.0.4",
     "grunt-contrib-symlink": "^1.0.0",
+    "grunt-contrib-uglify": "^0.7.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-filerev": "^2.3.1",
     "grunt-htmlhint": "^0.9.13",
