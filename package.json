@@ -23,9 +23,7 @@
   "dependencies": {
     "compression": "^1.6.2",
     "express": "^4.14.0",
-    "grunt-concurrent": "^2.3.0",
     "helmet": "^2.1.1",
-    "jit-grunt": "^0.10.0",
     "lodash": "^4.13.1",
     "serve-favicon": "^2.3.0"
   },
@@ -35,6 +33,7 @@
     "grunt-concurrent": "^2.3.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-csslint": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
