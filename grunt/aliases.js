@@ -25,6 +25,13 @@ module.exports = {
         'csslint:client'
     ],
     default: [
-        'lint'
+        'lint',
+        'client',
+        'concurrent:default'
+    ],
+    debug: [
+        'lint',
+        'client',
+        'concurrent:debug'
     ]
 };
