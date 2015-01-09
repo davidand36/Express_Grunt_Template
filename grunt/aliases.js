@@ -16,8 +16,10 @@ module.exports = {
     client: [
         'htmlhint:client',
         'scsslint:client',
+        'jshint:client',
         'clean:client',
-        'copy:client',
+        'copy:html',
+        'copy:images',
         'symlink:favicon',
         'compass:client',
         'csslint:client'

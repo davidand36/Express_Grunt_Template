@@ -7,10 +7,17 @@
 */
 
 module.exports = {
-    client: {
+    html: {
         cwd: 'client/',
-        src: [ '**.html',
-               '**.png', '**.jpg' ],
+        src: [ '**/*.html' ],
+        dest: 'public/',
+        expand: true,
+        mode: true,
+        timestamp: true
+    },
+    images: {
+        cwd: 'client/',
+        src: [ '*.png', 'images/**/*.png', '*.jpg', 'images/**/*.jpg' ],
         dest: 'public/',
         expand: true,
         mode: true,
