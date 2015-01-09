@@ -3,6 +3,9 @@
   David M. Anderson
 
   Main NodeJS file for Web server
+  NOTES:
+  1. See https://www.npmjs.com/package/connect-livereload . This also involves
+     the Grunt watch task and the security settings.
 */
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
