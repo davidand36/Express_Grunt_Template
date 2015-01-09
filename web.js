@@ -5,6 +5,8 @@
   Main NodeJS file for Web server
 */
 
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
 var express = require( 'express' );
 var favicon = require( 'serve-favicon' );
 var compression = require( 'compression' );
