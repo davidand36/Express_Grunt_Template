@@ -31,7 +31,8 @@ module.exports = {
     public: {
         files: [ 'public/**' ],
         options: {
-            livereload: ports.liveReload
+            livereload: (process.env.NODE_ENV === 'development') ?
+                ports.liveReload : false
         }
     }
 };

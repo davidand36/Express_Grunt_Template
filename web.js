@@ -19,7 +19,9 @@ var app = express();
 app.use( favicon( __dirname + '/public/favicon.ico' ) );
 app.use( compression() );
 security.useHelmet( app );
-app.use( liveReload( { port: ports.liveReload } ) );
+if ( process.env.NODE_ENV === 'development' ) {
+    app.use( liveReload( { port: ports.liveReload } ) );
+}
 app.use( express.static( __dirname + '/public' ) );
 
 var port = Number( ports.server );
