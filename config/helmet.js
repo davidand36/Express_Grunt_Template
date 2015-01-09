@@ -16,7 +16,8 @@ module.exports = {
     contentSecurityPolicy: {
         //See Helmet doc and http://www.html5rocks.com/en/tutorials/security/content-security-policy/
         defaultSrc: [ "'self'" ],
-        scriptSrc: [ "'self'", 'http://localhost:' + ports.liveReload ],
+        scriptSrc: [ "'self'", "'unsafe-inline'",
+                     'http://localhost:' + ports.liveReload ],
         connectSrc: [ "'self'", 'ws://localhost:' + ports.liveReload ]
     },
     xssFilter: null,
