@@ -10,7 +10,7 @@ var ports = require( '../config/ports' );
 
 module.exports = {
     grunt: {
-        files: [ 'gruntfile.js', 'grunt/*.js', 'config/**.js' ],
+        files: [ 'gruntfile.js', 'grunt/*.js', 'config/**/*.js' ],
         options: {
             reload: true
         }
@@ -20,7 +20,8 @@ module.exports = {
         tasks: [ 'htmlhint:client', 'copy:html' ]
     },
     images: {
-        files: [ '*.png', 'images/**.png', '*.jpg', 'images/**.jpg' ],
+        files: [ 'client/*.png', 'client/images/**/*.png',
+                 'client/*.jpg', 'client/images/**/*.jpg' ],
         tasks: [ 'copy:images' ]
     },
     css: {

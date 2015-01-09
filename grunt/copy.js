@@ -9,7 +9,7 @@
 module.exports = {
     html: {
         cwd: 'client/',
-        src: [ '**.html' ],
+        src: [ '**/*.html' ],
         dest: 'public/',
         expand: true,
         mode: true,
@@ -17,7 +17,7 @@ module.exports = {
     },
     images: {
         cwd: 'client/',
-        src: [ '*.png', 'images/**.png', '*.jpg', 'images/**.jpg' ],
+        src: [ '*.png', 'images/**/*.png', '*.jpg', 'images/**/*.jpg' ],
         dest: 'public/',
         expand: true,
         mode: true,
