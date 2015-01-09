@@ -10,10 +10,14 @@
      apps will need to adjust them.
 */
 
+var ports = require( '../config/ports' );
+
 module.exports = {
     contentSecurityPolicy: {
         //See Helmet doc and http://www.html5rocks.com/en/tutorials/security/content-security-policy/
-        defaultSrc: [ "'self'" ]
+        defaultSrc: [ "'self'" ],
+        scriptSrc: [ "'self'", 'http://localhost:' + ports.liveReload ],
+        connectSrc: [ "'self'", 'ws://localhost:' + ports.liveReload ]
     },
     xssFilter: null,
     frameGuard: null,
