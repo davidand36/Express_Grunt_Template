@@ -41,6 +41,7 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-symlink": "^0.3.0",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-filerev": "^2.1.2",
     "grunt-htmlhint": "^0.4.1",
     "grunt-jsonlint": "^1.0.4",
     "grunt-node-inspector": "^0.1.5",
