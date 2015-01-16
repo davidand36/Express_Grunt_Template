@@ -22,7 +22,8 @@ module.exports = function( grunt ) {
                                     {
                                         jitGrunt: {
                                             staticMappings: {
-                                                scsslint: 'grunt-scss-lint'
+                                                scsslint: 'grunt-scss-lint',
+                                                useminPrepare: 'grunt-usemin'
                                             }
                                         }
                                     } );

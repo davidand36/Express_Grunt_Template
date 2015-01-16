@@ -24,6 +24,12 @@ module.exports = {
         'compass:client',
         'csslint:client'
     ],
+    build: [
+        'useminPrepare',
+        'cssmin:public',
+        'filerev:css',
+        'usemin'
+    ],
     default: [
         'lint',
         'client',
