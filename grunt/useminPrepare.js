@@ -10,12 +10,10 @@ module.exports = {
     html: 'public/index.html',
     options: {
         flow: {
-            html: {
-                steps: {
-                    css: [ 'cssmin' ]
-                },
-                post: { }
-            }
+            steps: {
+                css: [ 'cssmin' ]
+            },
+            post: { }
         }
     }
 };

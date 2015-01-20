@@ -6,8 +6,5 @@
 */
 
 module.exports = {
-    html: 'public/index.html',
-    options: {
-        assetsDirs: [ 'public/css' ]
-    }
+    html: 'public/index.html'
 };
