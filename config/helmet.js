@@ -24,10 +24,9 @@ module.exports = {
             [ "'self'" ]
     },
     xssFilter: null,
-    frameGuard: null,
+    frameguard: null,
     hsts: { maxAge: 18*7*24*60*60*1000 },
     hidePoweredBy: null,
     ieNoOpen: null,
-    noSniff: null,
-    crossDomain: null
+    noSniff: null
 };
