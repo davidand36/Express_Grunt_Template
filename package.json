@@ -1,27 +1,25 @@
 {
-  "name": "NEWA_Template",
+  "name": "Express_Template",
   "version": "0.1.0",
-  "description": "Template for a Node/Express/Waterline/Angular Web app",
+  "description": "Template for a Node/Express Web app",
   "main": "web.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:davidand36/NEWA_Template.git"
+    "url": "git@github.com:davidand36/Express_Template.git"
   },
   "keywords": [
     "Node",
-    "Express",
-    "Waterline",
-    "Angular"
+    "Express"
   ],
   "author": "David M. Anderson",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/davidand36/NEWA_Template/issues"
+    "url": "https://github.com/davidand36/Express_Template/issues"
   },
-  "homepage": "https://github.com/davidand36/NEWA_Template",
+  "homepage": "https://github.com/davidand36/Express_Template",
   "dependencies": {
     "compression": "^1.6.2",
     "express": "^4.14.0",
