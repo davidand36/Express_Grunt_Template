@@ -13,6 +13,13 @@ module.exports = {
         'scsslint',
         'csslint'
     ],
+    'lint:system': [
+        'jsonlint:system',
+        'jshint:system'
+    ],
+    'lint:server': [
+        'jshint:server'
+    ],
     client: [
         'htmlhint:client',
         'scsslint:client',
@@ -31,12 +38,14 @@ module.exports = {
         'usemin'
     ],
     default: [
-        'lint',
+        'lint:system',
+        'lint:server',
         'client',
         'concurrent:default'
     ],
     debug: [
-        'lint',
+        'lint:system',
+        'lint:server',
         'client',
         'concurrent:debug'
     ]
