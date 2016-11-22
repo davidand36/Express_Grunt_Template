@@ -17,7 +17,9 @@ module.exports = {
     },
     images: {
         cwd: 'client/',
-        src: [ '*.png', 'images/**/*.png', '*.jpg', 'images/**/*.jpg' ],
+        src: [ '*.png', 'images/**/*.png',
+                '*.jpg', 'images/**/*.jpg',
+                '*.gif', 'images/**/*.gif'  ],
         dest: 'public/',
         expand: true,
         mode: true,
