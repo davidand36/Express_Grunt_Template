@@ -4,7 +4,7 @@
 
   Config for nodemon (Node monitor) Grunt task
   NOTES:
-  1. See https://www.npmjs.com/package/grunt-nodemon
+  1. See https://www.npmjs.com/package/grunt-contrib-nodemon
      and https://github.com/remy/nodemon .
 */
 
