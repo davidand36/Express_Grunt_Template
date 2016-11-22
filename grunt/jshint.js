@@ -9,6 +9,6 @@
 
 module.exports = {
     system: [ 'gruntfile.js', 'grunt/**/*.js', 'config/**/*.js' ],
-    server: [ 'web.js', 'server/**/*.js', 'config/**/*.js' ],
+    server: [ 'server/**/*.js', 'config/**/*.js' ],
     client: [ 'client/**/*.js' ]
 };
