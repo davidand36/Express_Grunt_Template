@@ -21,6 +21,7 @@ module.exports = {
     },
     images: {
         files: [ 'client/*.png', 'client/images/**/*.png',
+                 'client/*.svg', 'client/images/**/*.svg',
                  'client/*.jpg', 'client/images/**/*.jpg',
                  'client/*.gif', 'client/images/**/*.gif' ],
         tasks: [ 'copy:images' ]
