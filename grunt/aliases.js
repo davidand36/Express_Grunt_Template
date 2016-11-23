@@ -11,7 +11,7 @@ module.exports = {
         'jsonlint',
         'htmlhint',
         'jshint',
-        'scsslint',
+        'sass-lint',
         'csslint'
     ],
     'lint:system': [
@@ -23,7 +23,7 @@ module.exports = {
     ],
     client: [
         'htmlhint:client',
-        'scsslint:client',
+        'sass-lint:client',
         'jshint:client',
         'clean:client',
         'copy:html',

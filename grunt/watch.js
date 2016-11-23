@@ -26,7 +26,7 @@ module.exports = {
     },
     css: {
         files: [ 'client/scss/**/*.scss' ],
-        tasks: [ 'scsslint:client', 'compass:client' ]
+        tasks: [ 'sass-lint:client', 'compass:client' ]
     },
     public: {
         files: [ 'public/**' ],

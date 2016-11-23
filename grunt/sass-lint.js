@@ -1,10 +1,10 @@
 /*
-  scss-lint.rc
+  sass-lint.js
   David M. Anderson
 
   Config for scss-lint Grunt task
-  See https://www.npmjs.com/package/grunt-scss-lint
-  and https://github.com/causes/scss-lint .
+  See https://www.npmjs.com/package/grunt-contrib-sass-lint
+  and https://www.npmjs.com/package/sass-lint .
 */
 
 module.exports = {
