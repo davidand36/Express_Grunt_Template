@@ -3,6 +3,7 @@
   David M. Anderson
 
   Configuration for concurrent Grunt task
+  See https://www.npmjs.com/package/grunt-concurrent
 */
 
 module.exports = {

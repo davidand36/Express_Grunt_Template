@@ -3,8 +3,7 @@
   David M. Anderson
 
   Configuration of cssmin Grunt task
-  See https://github.com/gruntjs/grunt-contrib-cssmin
-  and https://github.com/jakubpawlowicz/clean-css#how-to-use-clean-css-programmatically .
+  See https://www.npmjs.com/package/grunt-contrib-cssmin
 */
 
 module.exports = {

@@ -3,7 +3,7 @@
   David M. Anderson
 
   Configuration of compass Grunt task
-  See https://confluence.mheducation.com/display/MSNG/NGC+and+Flatirons%27+API
+  See https://www.npmjs.com/package/grunt-contrib-compass
   and http://compass-style.org/
 */
 

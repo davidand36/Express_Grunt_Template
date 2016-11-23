@@ -3,6 +3,7 @@
   David M. Anderson
 
   Grunt task aliases
+  See https://www.npmjs.com/package/load-grunt-config .
 */
 
 module.exports = {

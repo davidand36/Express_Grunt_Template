@@ -3,7 +3,7 @@
   David M. Anderson
 
   Configuration for filerev Grunt task
-  See https://github.com/yeoman/grunt-filerev .
+  See https://www.npmjs.com/package/grunt-filerev
 */
 
 module.exports = {
