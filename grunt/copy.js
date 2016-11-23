@@ -25,5 +25,13 @@ module.exports = {
         expand: true,
         mode: true,
         timestamp: true
+    },
+    js: {
+        cwd: 'client/',
+        src: [ '**/*.js' ],
+        dest: 'public/',
+        expand: true,
+        mode: true,
+        timestamp: true
     }
 };

@@ -28,6 +28,7 @@ module.exports = {
         'clean:client',
         'copy:html',
         'copy:images',
+        'copy:js',
         'symlink:favicon',
         'compass:client',
         'csslint:client'
@@ -36,6 +37,7 @@ module.exports = {
         'useminPrepare',
         'cssmin:public',
         'filerev:css',
+        'concat:public',
         'usemin'
     ],
     default: [
