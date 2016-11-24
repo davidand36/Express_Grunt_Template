@@ -17,7 +17,7 @@ module.exports = {
     },
     html: {
         files: [ 'client/**/*.html' ],
-        tasks: [ 'htmlhint:client', 'copy:html' ]
+        tasks: [ 'htmlhint:client', 'copy:html', 'replace:html' ]
     },
     images: {
         files: [ 'client/*.png', 'client/images/**/*.png',

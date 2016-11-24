@@ -48,6 +48,7 @@
     "grunt-htmlhint": "^0.9.13",
     "grunt-jsonlint": "^1.1.0",
     "grunt-node-inspector": "^0.4.2",
+    "grunt-replace": "^1.0.1",
     "grunt-usemin": "^3.1.1",
     "jit-grunt": "^0.10.0",
     "load-grunt-config": "^0.19.2",

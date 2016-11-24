@@ -30,6 +30,7 @@ module.exports = {
         'copy:images',
         'copy:js',
         'symlink:favicon',
+        'replace:html',
         'compass:client',
         'csslint:client'
     ],
