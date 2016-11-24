@@ -12,7 +12,7 @@ module.exports = {
         sourceMap: true
     },
     public: {
-        src: [ 'client/js/**.js' ],
+        src: [ 'public/js/**.js', '!public/js/project.*' ],
         dest: 'public/js/project.js'
     }
 };
