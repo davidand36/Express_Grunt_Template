@@ -37,6 +37,7 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-csslint": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-htmlmin": "^2.0.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-nodemon": "^0.5.4",
     "grunt-contrib-sass-lint": "0.0.4",

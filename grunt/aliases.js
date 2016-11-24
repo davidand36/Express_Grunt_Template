@@ -39,7 +39,8 @@ module.exports = {
         'filerev:css',
         'uglify:public',
         'filerev:js',
-        'usemin'
+        'usemin',
+        'htmlmin'
     ],
     default: [
         'lint:system',
