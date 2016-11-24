@@ -8,6 +8,9 @@
 
 module.exports = {
     public: {
+        options: {
+            sourceMap: true
+        },
         files: [ {
             cwd: 'public/css',
             src: [ '*.css', '!*.min.css' ],
