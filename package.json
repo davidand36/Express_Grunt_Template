@@ -1,6 +1,6 @@
 {
   "name": "Express_Template",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Template for a Node/Express Web app",
   "main": "web.js",
   "scripts": {
