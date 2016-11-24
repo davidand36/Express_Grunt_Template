@@ -9,11 +9,10 @@
 module.exports = {
     public: {
         options: {
-            sourceMapIn: 'public/js/project.js.map',
             sourceMap: true
         },
         files: {
-            'public/js/project.min.js': [ 'public/js/project.js' ]
+            'public/js/project.min.js': [ 'public/js/**.js', '!public/js/project.*' ]
         }
     }
 };

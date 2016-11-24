@@ -37,7 +37,6 @@ module.exports = {
         'useminPrepare',
         'cssmin:public',
         'filerev:css',
-        'concat:public',
         'uglify:public',
         'filerev:js',
         'usemin'
