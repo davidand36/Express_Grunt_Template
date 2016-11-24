@@ -8,13 +8,5 @@
 */
 
 module.exports = {
-    html: 'public/index.html',
-    options: {
-        flow: {
-            steps: {
-                css: [ 'cssmin' ]
-            },
-            post: { }
-        }
-    }
+    html: 'public/index.html'
 };
