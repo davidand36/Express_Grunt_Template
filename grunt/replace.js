@@ -13,6 +13,10 @@ module.exports = {
                 {
                     match: 'version',
                     replacement: '<%= package.version %>'
+                },
+                {
+                    match: 'project-name',
+                    replacement: '<%= package.name %>'
                 }
             ]
         },

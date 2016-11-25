@@ -1,5 +1,5 @@
 {
-  "name": "Express_Template",
+  "name": "express-template",
   "description": "Template for a Node/Express Web app",
   "main": "web.js",
   "authors": [
