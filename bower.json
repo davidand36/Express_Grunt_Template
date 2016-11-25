@@ -1,0 +1,26 @@
+{
+  "name": "Express_Template",
+  "description": "Template for a Node/Express Web app",
+  "main": "web.js",
+  "authors": [
+    "David M. Anderson"
+  ],
+  "license": "AGPL-3.0",
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
