@@ -61,6 +61,7 @@ module.exports = {
         'lint:system',
         'lint:server',
         'lint:client',
+        'clean:tmp',
         'clean:public',
         'build:public',
         'lint:public',

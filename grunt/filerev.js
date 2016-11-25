@@ -8,11 +8,11 @@
 
 module.exports = {
     css: {
-        src: 'public/css/*.min.css',
+        src: '.tmp/css/*.min.css',
         dest: 'public/css/'
     },
     js: {
-        src: 'public/js/*.min.js',
+        src: '.tmp/js/*.min.js',
         dest: 'public/js/'
     }
 };

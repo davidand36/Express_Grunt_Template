@@ -14,7 +14,7 @@ module.exports = {
         files: [ {
             cwd: 'public/css',
             src: [ '*.css', '!*.min.css' ],
-            dest: 'public/css',
+            dest: '.tmp/css',
             ext: '.min.css',
             expand: true
         } ]
