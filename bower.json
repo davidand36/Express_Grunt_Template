@@ -1,6 +1,6 @@
 {
-  "name": "express-template",
-  "description": "Template for a Node/Express Web app",
+  "name": "express-grunt-template",
+  "description": "Template for a Node/Express Web app using Grunt",
   "main": "web.js",
   "authors": [
     "David M. Anderson"
@@ -8,7 +8,8 @@
   "license": "AGPL-3.0",
   "keywords": [
     "Node",
-    "Express"
+    "Express",
+    "Grunt"
   ],
   "homepage": "",
   "private": true,

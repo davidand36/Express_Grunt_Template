@@ -1,7 +1,7 @@
 {
-  "name": "express-template",
+  "name": "express-grunt-template",
   "version": "0.4.0",
-  "description": "Template for a Node/Express Web app",
+  "description": "Template for a Node/Express Web app using Grunt",
   "main": "web.js",
   "scripts": {
     "postinstall": "grunt prod",
@@ -9,18 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:davidand36/Express_Template.git"
+    "url": "git@github.com:davidand36/Express_Grunt_Template.git"
   },
   "keywords": [
     "Node",
-    "Express"
+    "Express",
+    "Grunt"
   ],
   "author": "David M. Anderson",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/davidand36/Express_Template/issues"
+    "url": "https://github.com/davidand36/Express_Grunt_Template/issues"
   },
-  "homepage": "https://github.com/davidand36/Express_Template",
+  "homepage": "https://github.com/davidand36/Express_Grunt_Template",
   "dependencies": {
     "compression": "^1.6.2",
     "express": "^4.14.0",
