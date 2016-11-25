@@ -8,5 +8,8 @@
 */
 
 module.exports = {
-    html: 'public/index.html'
+    html: 'public/index.html',
+    options: {
+        assetsDirs: [ '.tmp' ]
+    }
 };
