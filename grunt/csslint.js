@@ -11,7 +11,7 @@ module.exports = {
     options: {
         csslintrc: '.csslint.json'
     },
-    client: {
+    public: {
         src: [ 'public/**/*.css' ]
     }
 };

@@ -7,13 +7,6 @@
 */
 
 module.exports = {
-    lint: [
-        'jsonlint',
-        'htmlhint',
-        'jshint',
-        'sass-lint',
-        'csslint'
-    ],
     'lint:system': [
         'jsonlint:system',
         'jshint:system'
@@ -21,20 +14,30 @@ module.exports = {
     'lint:server': [
         'jshint:server'
     ],
-    client: [
+    'lint:client': [
         'htmlhint:client',
         'sass-lint:client',
-        'jshint:client',
-        'clean:client',
+        'jshint:client'
+    ],
+    'lint:public': [
+        'csslint:public'
+    ],
+    lint: [
+        'lint:system',
+        'lint:server',
+        'lint:client',
+        'lint:public'
+    ],
+    'build:public': [
         'copy:html',
-        'copy:images',
-        'copy:js',
-        'symlink:favicon',
         'replace:html',
         'compass:client',
-        'csslint:client'
+        'copy:images',
+        'symlink:favicon',
+        'copy:js',
+        'bower-install-simple'
     ],
-    build: [
+    'polish:public': [
         'useminPrepare',
         'cssmin:public',
         'filerev:css',
@@ -43,16 +46,29 @@ module.exports = {
         'usemin',
         'htmlmin'
     ],
-    default: [
-        'lint:system',
-        'lint:server',
-        'client',
-        'concurrent:default'
-    ],
-    debug: [
-        'lint:system',
-        'lint:server',
-        'client',
+    serve: [
         'concurrent:debug'
+    ],
+    dev: [
+        'lint:system',
+        'lint:server',
+        'lint:client',
+        'clean:public',
+        'build:public',
+        'lint:public'
+    ],
+    prod: [
+        'lint:system',
+        'lint:server',
+        'lint:client',
+        'clean:public',
+        'build:public',
+        'lint:public',
+        'polish:public',
+        'lint:public'
+    ],
+    default: [
+        'dev',
+        'serve'
     ]
 };

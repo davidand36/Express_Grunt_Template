@@ -7,5 +7,5 @@
 */
 
 module.exports = {
-    client: [ 'public/' ]
+    public: [ 'public/' ]
 };
