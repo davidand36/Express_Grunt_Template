@@ -4,7 +4,8 @@
   "description": "Template for a Node/Express Web app",
   "main": "web.js",
   "scripts": {
-    "test": "grunt test"
+    "postinstall": "grunt prod",
+    "start": "grunt serve"
   },
   "repository": {
     "type": "git",
