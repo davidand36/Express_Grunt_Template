@@ -6,5 +6,6 @@
 
 (function( ) {
     var message1 = 'Test script 1';
-    console.log( message1 );
+    var msgDiv = $('<p>').text( message1 );
+    $('body').append( msgDiv );
 })( );
