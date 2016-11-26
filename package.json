@@ -1,6 +1,6 @@
 {
   "name": "express-grunt-template",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Template for a Node/Express Web app using Grunt",
   "main": "web.js",
   "scripts": {
