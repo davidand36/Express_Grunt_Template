@@ -12,6 +12,6 @@ module.exports = {
         csslintrc: '.csslint.json'
     },
     public: {
-        src: [ 'public/**/*.css' ]
+        src: [ 'public/**/*.css', '!public/lib/**/*.css' ]
     }
 };

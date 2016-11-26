@@ -9,6 +9,6 @@
 
 module.exports = {
     client: [
-        'client/scss/**/*.scss'
+        'client/**/*.scss'
     ]
 };

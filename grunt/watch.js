@@ -20,14 +20,11 @@ module.exports = {
         tasks: [ 'htmlhint:client', 'copy:html', 'replace:html' ]
     },
     images: {
-        files: [ 'client/*.png', 'client/images/**/*.png',
-                 'client/*.svg', 'client/images/**/*.svg',
-                 'client/*.jpg', 'client/images/**/*.jpg',
-                 'client/*.gif', 'client/images/**/*.gif' ],
+        files: [ 'client/**/*.png', 'client/**/*.svg', 'client/**/*.jpg', 'client/**/*.gif' ],
         tasks: [ 'copy:images' ]
     },
     css: {
-        files: [ 'client/scss/**/*.scss' ],
+        files: [ 'client/**/*.scss' ],
         tasks: [ 'sass-lint:client', 'compass:client', 'csslint:client' ]
     },
     js: {

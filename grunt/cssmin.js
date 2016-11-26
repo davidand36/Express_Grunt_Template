@@ -12,9 +12,9 @@ module.exports = {
             sourceMap: true
         },
         files: [ {
-            cwd: 'public/css',
-            src: [ '*.css', '!*.min.css' ],
-            dest: '.tmp/css',
+            cwd: 'public',
+            src: [ '**/*.css', '!**/*.min.css' ],
+            dest: '.tmp',
             ext: '.min.css',
             expand: true
         } ]

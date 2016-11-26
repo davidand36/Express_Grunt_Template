@@ -22,7 +22,7 @@ module.exports = {
         },
         files: [ {
             cwd: 'public/',
-            src: [ '*.html' ],
+            src: [ '**/*.html', '!lib/**/*.html' ],
             dest: 'public/',
             expand: true
         } ]
