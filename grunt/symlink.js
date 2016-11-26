@@ -6,9 +6,11 @@
   See https://www.npmjs.com/package/grunt-contrib-symlink .
 */
 
+var clientConf = require( '../config/client' );
+
 module.exports = {
     favicon: {
-        src: 'public/EpsilonDeltaIcon_16x16.png',
+        src: 'public/' + clientConf.favicon,
         dest: 'public/favicon.ico'
     }
 };
