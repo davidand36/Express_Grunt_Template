@@ -16,6 +16,7 @@ var compression = require( 'compression' );
 var security = require( './security' );
 var liveReload = require( 'connect-livereload' );
 var ports = require( '../config/ports' );
+var additionService = require( './additionService' )( express );
 
 var app = express();
 
@@ -28,6 +29,8 @@ if ( process.env.NODE_ENV === 'development' ) {
     app.use( liveReload( { port: ports.liveReload } ) );
 }
 app.use( express.static( publicDir ) );
+
+app.use( '/addition', additionService );
 
 var port = Number( ports.server );
 app.listen( port,
