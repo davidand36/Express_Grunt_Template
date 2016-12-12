@@ -4,6 +4,7 @@
 
   Configuration for mocha-test (server testing) Grunt task
   See https://www.npmjs.com/package/grunt-mocha-test
+  and http://mochajs.org/
 */
 
 module.exports = {
@@ -12,5 +13,8 @@ module.exports = {
     },
     unit: {
         src: [ 'server/tests/unit/**/*.spec.js' ]
+    },
+    integration: {
+        src: [ 'server/tests/integration/**/*.spec.js' ]
     }
 };
