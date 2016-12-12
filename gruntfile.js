@@ -23,6 +23,7 @@ module.exports = function( grunt ) {
         {
             jitGrunt: {
                 staticMappings: {
+                    mochaTest: 'grunt-mocha-test',
                     useminPrepare: 'grunt-usemin'
                 }
             }

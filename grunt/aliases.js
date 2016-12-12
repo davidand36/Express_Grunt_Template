@@ -28,6 +28,12 @@ module.exports = {
         'lint:client',
         'lint:public'
     ],
+    'test:server': [
+        'mochaTest'
+    ],
+    test: [
+        'test:server'
+    ],
     'build:public': [
         'copy:html',
         'replace:html',
