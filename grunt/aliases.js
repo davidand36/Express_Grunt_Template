@@ -34,6 +34,9 @@ module.exports = {
     test: [
         'test:server'
     ],
+    coverage: [
+        'mocha_istanbul'
+    ],
     'build:public': [
         'copy:html',
         'replace:html',
