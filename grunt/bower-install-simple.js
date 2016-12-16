@@ -9,7 +9,7 @@
 module.exports = {
     public: {
         options: {
-            directory: 'public/lib',
+            directory: 'bower_components',
             production: true,
             interactive: false
         }

@@ -44,7 +44,8 @@ module.exports = {
         'copy:images',
         'symlink:favicon',
         'copy:js',
-        'bower-install-simple'
+        'bower-install-simple',
+        'copy:bower'
     ],
     'polish:public': [
         'useminPrepare',

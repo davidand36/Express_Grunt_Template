@@ -30,5 +30,13 @@ module.exports = {
         expand: true,
         mode: true,
         timestamp: true
+    },
+    bower: {
+        cwd: 'bower_components',
+        src: [ '**/*' ],
+        dest: 'public/lib',
+        expand: true,
+        mode: true,
+        timestamp: true
     }
 };

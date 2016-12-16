@@ -1,6 +1,7 @@
-node_modules
-public
-.sass-cache
-.tmp
-logs
-coverage
+bower_components/
+coverage/
+logs/
+node_modules/
+public/
+.sass-cache/
+.tmp/
