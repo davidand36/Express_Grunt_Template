@@ -8,6 +8,8 @@
     and http://chaijs.com/plugins/chai-http/
 */
 
+/* jshint expr:true */
+
 var express = require( 'express' );
 var app = express();
 var chai = require( 'chai' );
