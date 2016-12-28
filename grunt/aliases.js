@@ -28,14 +28,19 @@ module.exports = {
         'lint:client',
         'lint:public'
     ],
-    'test:server': [
-        'mochaTest'
-    ],
-    test: [
-        'test:server'
-    ],
-    coverage: [
+    'test:unit:server': [
         'mocha_istanbul'
+    ],
+    'test:unit:client': [
+        'karma:browsers'
+    ],
+    'test:unit:headless': [
+        'test:unit:server',
+        'karma:headless'
+    ],
+    'test:unit:browsers': [
+        'test:unit:server',
+        'karma:browsers'
     ],
     'build:public': [
         'copy:html',
@@ -65,7 +70,8 @@ module.exports = {
         'lint:client',
         'clean:public',
         'build:public',
-        'lint:public'
+        'lint:public',
+        'test:unit:browsers'
     ],
     prod: [
         'lint:system',
@@ -76,7 +82,8 @@ module.exports = {
         'build:public',
         'lint:public',
         'polish:public',
-        'lint:public'
+        'lint:public',
+        'test:unit:headless'
     ],
     default: [
         'dev',

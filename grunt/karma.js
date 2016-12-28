@@ -14,17 +14,22 @@ module.exports = {
         port: ports.karma,
         frameworks: [ 'mocha', 'chai' ]
     },
-    full: {
-        browsers: [ 'PhantomJS'/*, 'Chrome'*/, 'Firefox' ],
-        singleRun: true
-    },
     headless: {
-        options: {
-            browsers: [ 'PhantomJS' ],
-            singleRun: true
+        browsers: [ 'PhantomJS' ],
+        singleRun: true,
+        preprocessors: {
+            'public/!(lib)/!(*test|*spec).js': [ 'coverage' ]
+        },
+        reporters: [ 'progress', 'coverage' ],
+        coverageReporter: {
+            dir: '../coverage/client',
+            reporters: [
+                { type: 'html', subdir: 'report-html' },
+                { type: 'lcovonly', subdir: '.', file: 'lcov.info' }
+            ]
         }
     },
-    coverage: {
+    browsers: {
         browsers: [ 'PhantomJS'/*, 'Chrome'*/, 'Firefox' ],
         singleRun: true,
         preprocessors: {
