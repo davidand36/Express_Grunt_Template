@@ -12,36 +12,24 @@ module.exports = {
     options: {
         configFile: 'config/karma.conf.js',
         port: ports.karma,
-        frameworks: [ 'mocha', 'chai' ]
+        frameworks: [ 'mocha', 'chai' ],
+        singleRun: true,
+        preprocessors: {
+            'public/!(lib)/!(*test|*spec).js': [ 'coverage' ]
+        },
+        reporters: [ 'progress', 'coverage' ],
+        coverageReporter: {
+            dir: '../coverage/client',
+            reporters: [
+                { type: 'html', subdir: 'report-html' },
+                { type: 'lcovonly', subdir: '.', file: 'lcov.info' }
+            ]
+        }
     },
     headless: {
-        browsers: [ 'PhantomJS' ],
-        singleRun: true,
-        preprocessors: {
-            'public/!(lib)/!(*test|*spec).js': [ 'coverage' ]
-        },
-        reporters: [ 'progress', 'coverage' ],
-        coverageReporter: {
-            dir: '../coverage/client',
-            reporters: [
-                { type: 'html', subdir: 'report-html' },
-                { type: 'lcovonly', subdir: '.', file: 'lcov.info' }
-            ]
-        }
+        browsers: [ 'PhantomJS' ]
     },
     browsers: {
-        browsers: [ 'PhantomJS'/*, 'Chrome'*/, 'Firefox' ],
-        singleRun: true,
-        preprocessors: {
-            'public/!(lib)/!(*test|*spec).js': [ 'coverage' ]
-        },
-        reporters: [ 'progress', 'coverage' ],
-        coverageReporter: {
-            dir: '../coverage/client',
-            reporters: [
-                { type: 'html', subdir: 'report-html' },
-                { type: 'lcovonly', subdir: '.', file: 'lcov.info' }
-            ]
-        }
+        browsers: [ 'PhantomJS'/*, 'Chrome'*/, 'Firefox' ]
     }
 };

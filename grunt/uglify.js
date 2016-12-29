@@ -12,7 +12,13 @@ module.exports = {
             sourceMap: true
         },
         files: {
-            '.tmp/js/<%= package.name %>.min.js': [ 'public/**/**.js', '!public/lib/**/*.js', '!public/js/<%= package.name %>.*' ]
+            '.tmp/js/<%= package.name %>.min.js': [
+                'public/**/**.js',
+                '!public/lib/**/*.js',
+                '!public/js/<%= package.name %>.*',
+                '!public/**/*.test.js',
+                '!public/**/*.spec.js'
+            ]
         }
     }
 };

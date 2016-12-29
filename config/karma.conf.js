@@ -3,7 +3,8 @@
     David M. Anderson
 
     Configuration for Karma client-side testing.
-    Some options are specified in grunt/karma.
+    Just the project-specific options.
+    Most options are specified in grunt/karma.js.
 */
 
 module.exports = function( config ) {
