@@ -9,7 +9,7 @@
 
 var chai = require( 'chai' );
 var assert = chai.assert;
-var arithmetic = require( '../../arithmetic' );
+var arithmetic = require( './arithmetic' );
 
 describe( 'arithmetic', function( ) {
 

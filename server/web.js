@@ -16,7 +16,7 @@ var compression = require( 'compression' );
 var security = require( './security' );
 var liveReload = require( 'connect-livereload' );
 var ports = require( '../config/ports' );
-var arithmeticService = require( './arithmeticService' )( express );
+var arithmeticService = require( './arithmetic/arithmeticService' )( express );
 
 var app = express();
 

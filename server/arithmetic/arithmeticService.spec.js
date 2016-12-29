@@ -15,7 +15,7 @@ var app = express();
 var chai = require( 'chai' );
 var expect = chai.expect;
 var chaiHttp = require( 'chai-http' );
-var arithmeticService = require( '../../arithmeticService' )( express );
+var arithmeticService = require( './arithmeticService' )( express );
 
 chai.use( chaiHttp );
 

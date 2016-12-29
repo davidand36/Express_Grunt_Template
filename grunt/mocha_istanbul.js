@@ -8,12 +8,13 @@
 
 module.exports = {
     options: {
-        reporter: 'spec'
+        reporter: 'spec',
+        coverageFolder: 'coverage/server'
     },
-    'server': {
+    server: {
         src: [
-            'server/tests/unit/**/*.spec.js',
-            'server/tests/integration/**/*.spec.js'
+            'server/**/*.spec.js',
+            'server/**/*.test.js'
         ]
     }
 };

@@ -11,10 +11,10 @@ module.exports = {
     options: {
         reporter: 'spec'
     },
-    unit: {
-        src: [ 'server/tests/unit/**/*.spec.js' ]
-    },
-    integration: {
-        src: [ 'server/tests/integration/**/*.spec.js' ]
+    server: {
+        src: [
+            'server/**/*.spec.js',
+            'server/**/*.test.js'
+        ]
     }
 };
