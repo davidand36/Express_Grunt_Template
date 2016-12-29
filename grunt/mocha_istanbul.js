@@ -9,7 +9,8 @@
 module.exports = {
     options: {
         reporter: 'spec',
-        coverageFolder: 'coverage/server'
+        coverageFolder: 'coverage/server',
+        excludes: [ '**/*.spec.js', '**/*.test.js' ]
     },
     server: {
         src: [
