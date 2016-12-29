@@ -42,6 +42,9 @@ module.exports = {
         'test:unit:server',
         'karma:browsers'
     ],
+    test: [
+        'test:unit:browsers'
+    ],
     'build:public': [
         'copy:html',
         'replace:html',
