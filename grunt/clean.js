@@ -8,5 +8,6 @@
 
 module.exports = {
     tmp: [ '.tmp/' ],
-    public: [ 'public/' ]
+    public: [ 'public/' ],
+    coverage: [ 'coverage/' ]
 };

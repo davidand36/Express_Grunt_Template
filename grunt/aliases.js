@@ -74,6 +74,7 @@ module.exports = {
         'clean:public',
         'build:public',
         'lint:public',
+        'clean:coverage',
         'test:unit:browsers'
     ],
     prod: [
@@ -86,6 +87,7 @@ module.exports = {
         'lint:public',
         'polish:public',
         'lint:public',
+        'clean:coverage',
         'test:unit:headless'
     ],
     default: [
