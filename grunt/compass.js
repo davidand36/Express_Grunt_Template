@@ -10,8 +10,8 @@
 module.exports = {
     client: {
         options: {
-            sassDir: 'client/scss',
-            cssDir: 'public/css',
+            sassDir: 'client',
+            cssDir: 'public',
             sourcemap: true
         }
     }

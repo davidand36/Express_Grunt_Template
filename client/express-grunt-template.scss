@@ -1,9 +1,9 @@
-//  text.scss
+//  express-grunt-template.scss
 //  David M. Anderson
 //
-//  Text styling
+//  Main style-sheet for this app
 
-@import 'colors';
+@import 'scss/colors';
 
 body {
     background-color: $background-color;
