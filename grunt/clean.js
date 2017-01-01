@@ -9,5 +9,5 @@
 module.exports = {
     tmp: [ '.tmp/' ],
     public: [ 'public/' ],
-    coverage: [ 'coverage/' ]
+    coverage: [ 'coverage/server', 'coverage/client' ]
 };

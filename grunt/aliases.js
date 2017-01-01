@@ -75,7 +75,8 @@ module.exports = {
         'build:public',
         'lint:public',
         'clean:coverage',
-        'test:unit:browsers'
+        'test:unit:browsers',
+        'symlink:coverage'
     ],
     prod: [
         'lint:system',

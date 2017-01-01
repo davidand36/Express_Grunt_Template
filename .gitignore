@@ -1,5 +1,6 @@
 bower_components/
-coverage/
+coverage/client/
+coverage/server/
 logs/
 node_modules/
 public/

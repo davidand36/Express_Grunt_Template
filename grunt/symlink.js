@@ -12,5 +12,9 @@ module.exports = {
     favicon: {
         src: 'public/' + clientConf.favicon,
         dest: 'public/favicon.ico'
+    },
+    coverage: {
+        src: 'coverage',
+        dest: 'public/_coverage'
     }
 };
