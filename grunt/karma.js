@@ -30,6 +30,6 @@ module.exports = {
         browsers: [ 'PhantomJS' ]
     },
     browsers: {
-        browsers: [ 'PhantomJS'/*, 'Chrome'*/, 'Firefox' ]
+        browsers: [ 'PhantomJS', 'Chrome', 'Firefox' ]
     }
 };
