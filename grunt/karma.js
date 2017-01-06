@@ -4,6 +4,9 @@
 
     Configuration for karma (client testing) Grunt task.
     See https://www.npmjs.com/package/grunt-karma
+    and https://www.npmjs.com/package/karma .
+    Using several plug-ins,
+    including https://www.npmjs.com/package/karma-detect-browsers
 */
 
 var ports = require( '../config/ports' );
@@ -31,5 +34,10 @@ module.exports = {
     },
     browsers: {
         frameworks: [ 'detectBrowsers', 'mocha', 'chai' ]
+    },
+    watched: {
+        browsers: [ 'PhantomJS' ],
+        background: true,
+        singleRun: false
     }
 };

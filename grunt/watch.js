@@ -29,7 +29,7 @@ module.exports = {
     },
     js: {
         files: [ 'client/**/*.js' ],
-        tasks: [ 'jshint:client', 'copy:js' ]
+        tasks: [ 'jshint:client', 'copy:js', 'karma:watched:run' ]
     },
     public: {
         files: [ 'public/**' ],

@@ -65,6 +65,7 @@ module.exports = {
         'htmlmin'
     ],
     serve: [
+        'karma:watched:start',
         'concurrent:debug'
     ],
     dev: [
