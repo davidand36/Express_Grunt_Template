@@ -20,7 +20,7 @@ module.exports = {
         preprocessors: {
             'public/!(lib)/!(*test|*spec).js': [ 'coverage' ]
         },
-        reporters: [ 'progress', 'coverage' ],
+        reporters: [ 'mocha', 'coverage' ],
         coverageReporter: {
             dir: '../coverage/client',
             reporters: [
