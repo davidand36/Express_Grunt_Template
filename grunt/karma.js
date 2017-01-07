@@ -7,6 +7,7 @@
     and https://www.npmjs.com/package/karma .
     Using several plug-ins,
     including https://www.npmjs.com/package/karma-detect-browsers
+    and https://www.npmjs.com/package/karma-coverage
 */
 
 var ports = require( '../config/ports' );
@@ -25,7 +26,8 @@ module.exports = {
             dir: '../coverage/client',
             reporters: [
                 { type: 'html', subdir: 'report-html' },
-                { type: 'lcovonly', subdir: '.', file: 'lcov.info' }
+                { type: 'lcovonly', subdir: '.', file: 'lcov.info' },
+                { type: 'text-summary' }
             ]
         }
     },
